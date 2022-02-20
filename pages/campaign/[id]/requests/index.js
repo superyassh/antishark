@@ -111,7 +111,7 @@ const RequestRow = ({
     <Tr
       bg={
         readyToFinalize && !request.complete
-          ? useColorModeValue("teal.100", "teal.700")
+          ? useColorModeValue("purple.100", "purple.700")
           : useColorModeValue("gray.100", "gray.700")
       }
       opacity={request.complete ? "0.4" : "1"}
@@ -124,7 +124,7 @@ const RequestRow = ({
       </Td>
       <Td>
         <Link
-          color="teal.500"
+          color="purple.500"
           href={`https://rinkeby.etherscan.io/address/${request.recipient}`}
           isExternal
         >
@@ -229,7 +229,7 @@ const RequestRow = ({
             >
               <InfoIcon
                 as="span"
-                color={useColorModeValue("teal.800", "white")}
+                color={useColorModeValue("purple.800", "white")}
                 display={
                   readyToFinalize && !request.complete ? "inline-block" : "none"
                 }
@@ -292,7 +292,7 @@ export default function Requests({
         <Container px={{ base: "4", md: "12" }} maxW={"7xl"} align={"left"}>
           <Flex flexDirection={{ base: "column", md: "row" }} py={4}>
             <Box py="4">
-              <Text fontSize={"lg"} color={"teal.400"}>
+              <Text fontSize={"lg"} color={"purple.400"}>
                 <ArrowBackIcon mr={2} />
                 <NextLink href={`/campaign/${campaignId}`}>
                   Back to Campaign
@@ -361,10 +361,10 @@ export default function Requests({
                     fontSize={"md"}
                     fontWeight={600}
                     color={"white"}
-                    bg={"teal.400"}
+                    bg={"purple.400"}
                     href={"#"}
                     _hover={{
-                      bg: "teal.300",
+                      bg: "purple.300",
                     }}
                   >
                     Add Withdrawal Request
@@ -460,9 +460,9 @@ export default function Requests({
                   fontSize={"md"}
                   fontWeight={600}
                   color={"white"}
-                  bg={"teal.400"}
+                  bg={"purple.400"}
                   _hover={{
-                    bg: "teal.300",
+                    bg: "purple.300",
                   }}
                 >
                   <NextLink href={`/campaign/${campaignId}/requests/new`}>

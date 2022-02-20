@@ -132,7 +132,7 @@ function CampaignCard({
                   h={7}
                   w={7}
                   alignSelf={"center"}
-                  color={"teal.400"}
+                  color={"purple.400"}
                 />{" "}
               </chakra.a>
             </Tooltip>
@@ -184,7 +184,7 @@ function CampaignCard({
                 {getWEIPriceInUSD(ethPrice, target)})
               </Text>
               <Progress
-                colorScheme="teal"
+                colorScheme="purple"
                 size="sm"
                 value={web3.utils.fromWei(balance, "ether")}
                 max={web3.utils.fromWei(target, "ether")}
@@ -252,9 +252,9 @@ export default function Home({ campaigns }) {
               fontSize={"md"}
               fontWeight={600}
               color={"white"}
-              bg={"teal.400"}
+              bg={"purple.400"}
               _hover={{
-                bg: "teal.300",
+                bg: "purple.300",
               }}
             >
               Create Campaign
@@ -332,7 +332,7 @@ export default function Home({ campaigns }) {
           <Heading as="h2" size="lg" mt="8">
             For any queries raise an issue on{" "}
             <Link
-              color="teal.500"
+              color="purple.500"
               href="https://github.com/harsh242/betterfund-crowdfunding-in-blockchain/issues"
               isExternal
             >

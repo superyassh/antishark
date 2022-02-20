@@ -56,13 +56,13 @@ export default function Footer() {
         <Heading
           textAlign={useBreakpointValue({ base: "center", md: "left" })}
           fontFamily={"heading"}
-          color={useColorModeValue("teal.800", "white")}
+          color={useColorModeValue("purple.800", "white")}
           as="h2"
           size="lg"
         >
           <Box
             as={"span"}
-            color={useColorModeValue("teal.400", "teal.300")}
+            color={useColorModeValue("purple.400", "purple.300")}
             position={"relative"}
             zIndex={10}
             _after={{
@@ -72,11 +72,11 @@ export default function Footer() {
               bottom: 0,
               w: "full",
               h: "30%",
-              bg: useColorModeValue("teal.100", "teal.900"),
+              bg: useColorModeValue("purple.100", "purple.900"),
               zIndex: -1,
             }}
           >
-            <NextLink href="/">🤝BetterFund</NextLink>
+            <NextLink href="/">🦈Anti Shark</NextLink>
           </Box>
         </Heading>
         <Stack direction={"row"} spacing={6}>
