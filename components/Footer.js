@@ -83,13 +83,13 @@ export default function Footer() {
           <NextLink href="/">Home</NextLink>
           <Link
             href={
-              "https://github.com/harsh242/betterfund-crowdfunding-in-blockchain"
+              "https://github.com/superyassh/antishark"
             }
             isExternal
           >
             Github
           </Link>
-          <Link href={"mailto:harshbadhai242@gmail.com"} isExternal>
+          <Link href={"mailto:yanshukishore@gmail.com"} isExternal>
             Contact
           </Link>
         </Stack>
