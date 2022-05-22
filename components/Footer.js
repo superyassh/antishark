@@ -109,7 +109,7 @@ export default function Footer() {
           justify={{ base: "center", md: "space-between" }}
           align={{ base: "center", md: "center" }}
         >
-          <Text>🌐 Made while 💩 by Yanshu</Text>
+          <Text>🛠 Made while 💩 by Yanshu</Text>
           <Stack direction={"row"} spacing={6}>
             {/* <SocialButton
             label={"Website"}
