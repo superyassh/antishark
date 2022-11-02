@@ -1,6 +1,6 @@
 {
   "name": "antishark",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -26,7 +26,7 @@
     "react-hook-form": "^7.4.2",
     "react-icons": "^4.2.0",
     "react-use": "^17.2.4",
-    "solc": "^0.4.17",
+    "solc": "^0.4.26",
     "truffle-hdwallet-provider": "^1.0.17",
     "use-wallet": "^0.8.1",
     "web3": "^1.3.5"
