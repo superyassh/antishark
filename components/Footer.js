@@ -111,12 +111,6 @@ export default function Footer() {
         >
           <Text>🛠 Made while 💩 by Yanshu</Text>
           <Stack direction={"row"} spacing={6}>
-            {/* <SocialButton
-            label={"Website"}
-            href={"https://harshbadhai.me/"}>
-              {" "}
-              <FaGlobe />
-            </SocialButton>       */}
             <SocialButton
               label={"Twitter"}
               href={"https://twitter.com/superyassh"}
